@@ -25,11 +25,11 @@ public class Cours {
 
     private boolean archive = false;
 
-    // Relation One-to-Many avec Matiere
-   // @OneToMany(mappedBy = "cours", cascade = CascadeType.ALL, orphanRemoval = true)
-   // private List<Matiere> matieres;
+     //Relation One-to-Many avec Matiere
+     @OneToMany(mappedBy = "cours", cascade = CascadeType.ALL, orphanRemoval = true)
+     private List<Matiere> matieres;
 
     // Relation One-to-Many avec Session
-  //  @OneToMany(mappedBy = "cours", cascade = CascadeType.ALL, orphanRemoval = true)
-    //private List<Session> sessions;
+      @OneToMany(mappedBy = "cours", cascade = CascadeType.ALL, orphanRemoval = true)
+      private List<Session> sessions;
 }

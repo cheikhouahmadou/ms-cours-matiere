@@ -20,6 +20,7 @@ public class Matiere {
     private String nom;
 
     private String description;
+
     private boolean archive = false;
 
     // Relation Many-to-One avec Cours
