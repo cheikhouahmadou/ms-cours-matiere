@@ -20,4 +20,7 @@ public class SessionDtoResponse {
 
     // On renvoie le nom du cours associé pour une meilleure lisibilité
     private String coursNom;
+
+    // On renvoie le nom du cours associé pour une meilleure lisibilité
+   // private String EnseignantNom;
 }

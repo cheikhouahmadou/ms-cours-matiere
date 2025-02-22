@@ -33,7 +33,7 @@ public class Enseignant {
     private String adresse;
     private boolean archive = false;
 //
-//    @OneToMany(mappedBy = "enseignant", cascade = CascadeType.ALL, orphanRemoval = true)
-//    private List<Session> sessions = new ArrayList<>();
+    @OneToMany(mappedBy = "enseignant", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Session> sessions = new ArrayList<>();
 
 }

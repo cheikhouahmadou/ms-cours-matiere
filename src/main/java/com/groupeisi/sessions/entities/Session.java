@@ -26,9 +26,9 @@ public class Session {
     private String description;
     private boolean archive = false;
 
-//    @ManyToOne
-//    @JoinColumn(name = "enseignant_id") // Assurez-vous que la colonne est bien présente
-//    private Enseignant enseignant;
+    @ManyToOne
+    @JoinColumn(name = "enseignant_id") // Assurez-vous que la colonne est bien présente
+    private Enseignant enseignant;
 
     // Relation Many-to-One avec Cours
     @ManyToOne

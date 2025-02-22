@@ -5,10 +5,8 @@ import com.groupeisi.cours.dto.responses.CoursDtoResponse;
 import com.groupeisi.cours.entities.Cours;
 import com.groupeisi.cours.mapper.CoursMapper;
 import com.groupeisi.cours.repository.CoursRepository;
-import com.groupeisi.cours.service.CoursService;
 import com.groupeisi.exception.EntityExistsException;
 import com.groupeisi.exception.EntityNotFoundException;
-import jakarta.transaction.Transactional;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.MessageSource;
@@ -18,15 +16,10 @@ import java.util.Locale;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.springframework.context.MessageSource;
-import java.util.List;
-import java.util.Locale;
-import java.util.Optional;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
 
