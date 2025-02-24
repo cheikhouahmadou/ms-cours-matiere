@@ -76,7 +76,7 @@ Test postman
 ![C21](https://github.com/user-attachments/assets/5dfffeae-9b3c-4a2f-9768-e9e59664517d)
 
 
-Structure front
+Structure front -> framework React
 
 ![C23](https://github.com/user-attachments/assets/111521c4-2936-44d9-a853-3cbe34ae736f)
 
